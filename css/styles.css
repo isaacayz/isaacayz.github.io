@@ -1,34 +1,46 @@
 body {
     background-color: white;
 }
+
 .banner1 {
     height: 100px;
 }
+
 .mr-auto {
     margin-right: 0 !important;
 }
+
 .navbar-change {
     background-color: #3A96D9 !important;
 }
+
 .navbar-right ul li {
     color: black !important;
 }
+
 .main-image {
-    width: 70%;
+    width: 35%;
     border-radius: 100%;
-    float: right;
 }
+
+.whoIam img {
+    width: 100%;
+    border-radius: 100%;
+}
+
 .jumbotron {
     background-color: white;
     padding: 0;
 }
-.container {
+
+.container1 {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
     overflow: hidden;
 }
+
 .myName {
-    color: #3A96D9;
+    color: purple;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
@@ -36,130 +48,170 @@ body {
     font-size: 40px;
     margin-left: 0;
 }
+
 .name2 {
     font-size: 60px;
     font-weight: bolder;
 }
+
 .details {
     text-transform: uppercase;
-    font-family: 'passion one',sans-serif;
+    font-family: 'passion one', sans-serif;
     font-weight: bold;
     color: grey;
     letter-spacing: 0.5px;
 }
+
 .h-divider {
-      border-top: 4px double #8c8b8b;
-      text-align: center;
-        margin-top: 5px;
-        width: 100%;
+    border-top: 4px double #8c8b8b;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
 }
+
 .h-divider:after {
-      content: "\002665";
-      display: inline-block;
-      position: relative;
-      top: -15px;
-      padding: 0 10px;
-      background: #fff;
-      color: #8c8b8b;
-      font-size: 18px;
+    content: "\002665";
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    padding: 0 10px;
+    background: #fff;
+    color: #8c8b8b;
+    font-size: 18px;
 }
+
 .noPadding {
     padding: 0;
 }
+
 .teach {
     padding: 15px 0px 0px 0px;
     margin-top: 35px;
 }
+
 .one {
     height: 50px;
 }
-.whoIam img {
-    width: 70%;
-}
+
 .aboutMe {
-    padding: 50px 0px;
+    padding: 30px 0px;
     margin: 0;
 }
+
 .pull-right {
     margin: 0;
 }
+
 footer {
-    background: #3A96D9;
+    background: #000;
     bottom: 0px;
     height: auto;
     width: 100%;
+    color: grey;
+    text-align: right;
+    padding-right: 10px;
 }
+
+@media (max-width: 550px) {
+    .footer {
+        font-size: 12px;
+    }
+}
+
 .white {
     color: floralwhite;
     font-weight: bold;
 }
-.white1, a:hover {
-    color: white;
+
+a:hover {
+    color: black;
     text-decoration: none;
 }
+
 .grey {
     color: lightgrey;
     font-weight: bold;
 }
+
 .calendar {
     max-height: 50px;
 }
+
 .lead1 {
     font-family: cursive;
     padding: 0px 5px;
 }
-.spaceUp, a {
+
+.spaceUp {
     margin: 5px 0px;
     text-align: center;
     color: floralwhite;
 }
-.fa {
-    font-size: 30px;
-    border-radius: 50%;
-}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
     padding: 0;
 }
+
 .img-thumbnail {
     display: block;
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
+
 .effectMy {
     position: relative;
     width: 50%;
 }
+
 .middle {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color:#3A96D9;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #3A96D9;
     opacity: 0.8;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .5s ease;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
 }
+
 .effectMy:hover .middle {
-  bottom: 0;
-  height: 100%;
+    bottom: 0;
+    height: 100%;
 }
 
 .text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-
-.fa-home, .fa-users, .fa-archive {
+.fa-home,
+.fa-users,
+.fa-archive {
     font-size: 20px;
+}
+
+.no-padding {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    width: auto;
+}
+
+.lead {
+    text-align: justify;
 }
