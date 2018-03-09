@@ -243,8 +243,8 @@ header.masthead p {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: rgba(255, 165, 0, 0.9);
-    /* background: rgba(240, 95, 64, 0.9); */
+    /*background: rgba(255, 165, 0, 0.9);*/
+    background: rgba(128, 0, 128, 0.6);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
@@ -262,6 +262,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -291,7 +292,7 @@ header.masthead p {
     }
     .main-image {
         width: 90% !important;
-        cursor: crosshair;
+        cursor: pointer;
     }
     .whoIam img {
         width: 80% !important;
