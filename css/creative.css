@@ -290,7 +290,8 @@ header.masthead p {
         font-size: 22px;
     }
     .main-image {
-        width: 100% !important;
+        width: 90% !important;
+        cursor: crosshair;
     }
     .whoIam img {
         width: 80% !important;
